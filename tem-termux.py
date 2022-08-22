@@ -21,7 +21,9 @@ soheil = """
 \033[41m[1]\33[1;0m  \033[32m Flower
 \033[41m[2]\33[1;0m  \033[32m Skull
 \033[41m[3]\33[1;0m  \033[32m Computer
-\033[41m[4]\33[1;0m  \033[32m Parrot"""
+\033[41m[4]\33[1;0m  \033[32m Parrot
+\033[41m[5]\33[1;0m  \033[32m Devil
+\033[41m[6]\33[1;0m  \033[32m Dragon"""
 #
 for i in soheil:
 	sleep(0.05)
@@ -41,4 +43,12 @@ if(str(shah) == "3"):
 ###############################
 if(str(shah) == "4"):
   os.system("cd parrot&&bash install.sh")
+###############################
+if(str(shah) == "5"):
+  os.system("cd Devil&&bash install.sh")
+###############################
+if(str(shah) == "4"):
+  os.system("cd Dragon&&python Dragon.py")
+  
+  
   
