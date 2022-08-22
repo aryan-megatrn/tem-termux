@@ -1,14 +1,6 @@
 #aryan
 #love atnam♥❣️
 import os
-print()
-try:
-    os.system('clear')
-except:
-    os.system("pip install colorama")
-except:
-    os.system("pip3 install colored")
-#
 import random
 from random import randint
 import string
