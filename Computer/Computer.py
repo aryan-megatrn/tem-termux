@@ -9,9 +9,11 @@ from colorama import Fore
 import sys
 ###########
 print("\n"*10)
+print("\e[1;97m") 
 soheil = """
-\033[41m[1]\33[1;0m  \033[32m Banner Computer1\033[41m
+\033[41m[1]\33[1;0m  \033[32m Banner Computer1
 \033[41m[2]\33[1;0m  \033[32m Banner Computer2
+\e[1;97m
 """
 for i in soheil:
 	sleep(0.05)
@@ -24,4 +26,4 @@ if(str(shah) == "1"):
   os.system("cd Computer1&&bash install.sh")
 #
 if(str(shah) == "2"):
-  os.system("cd Computer2&&bash install.sh") 
+  os.system("cd Computer3&&bash install.sh") 
