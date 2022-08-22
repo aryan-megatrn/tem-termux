@@ -34,11 +34,11 @@ if(str(shah) == "1"):
   os.system("cd گل&&bash install.sh")
 ###############################
 if(str(shah) == "2"):
-  os.system("cd skeleton&&bash install.sh")
+  os.system("cd اسکلت&&bash install.sh")
 ###############################
 if(str(shah) == "3"):
-  os.system("cd Computer&&python Select.py")
+  os.system("cd کامپیوتر&&python Select.py")
 ###############################
 if(str(shah) == "4"):
-  os.system("cd parrot&&bash install.sh")
+  os.system("cd طوطی&&bash install.sh")
   
