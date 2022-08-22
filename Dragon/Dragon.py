@@ -25,4 +25,3 @@ if(str(shah) == "1"):
 #
 if(str(shah) == "2"):
   os.system("cd Dragon2&&bash install.sh
-Footer
