@@ -19,9 +19,9 @@ print("""\033[31m
 |_|  |_|_____\____/_/   \_\_| |_| \_\_| \_|\033[32m""")
 soheil = """
 \033[41m[1]\33[1;0m  \033[32m Flower
-\033[41m[2]\33[1;0m  \033[32m skeleton
+\033[41m[2]\33[1;0m  \033[32m Skull
 \033[41m[3]\33[1;0m  \033[32m Computer
-\033[41m[4]\33[1;0m  \033[32m parrot"""
+\033[41m[4]\33[1;0m  \033[32m Parrot"""
 #
 for i in soheil:
 	sleep(0.05)
@@ -34,7 +34,7 @@ if(str(shah) == "1"):
   os.system("cd Flower&&bash install.sh")
 ###############################
 if(str(shah) == "2"):
-  os.system("cd اسکلت&&bash install.sh")
+  os.system("cd skull&&bash install.sh")
 ###############################
 if(str(shah) == "3"):
   os.system("cd Computer&&python Computer.py")
