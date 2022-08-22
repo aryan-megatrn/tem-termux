@@ -31,7 +31,7 @@ print()
 shah = int(input(Fore.CYAN+"     \033[41m[?]\33[1;0m"+"\33[1; \033[31mType number \033[32m◈─━─━─━─━\033[34m❯❯❯  \033[93m"+Fore.RED+""))
 ################################## 
 if(str(shah) == "1"):
-  os.system("cd Flower&&bash install.sh")
+  os.system("cd گل&&bash install.sh")
 ###############################
 if(str(shah) == "2"):
   os.system("cd skeleton&&bash install.sh")
