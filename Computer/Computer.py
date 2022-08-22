@@ -24,4 +24,4 @@ if(str(shah) == "1"):
   os.system("cd Computer1&&bash install.sh")
 #
 if(str(shah) == "2"):
-  os.system("cd Computer2&&bash install.sh
+  os.system("cd Computer2&&bash install.sh") 
