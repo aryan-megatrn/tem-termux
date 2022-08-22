@@ -47,7 +47,7 @@ if(str(shah) == "4"):
 if(str(shah) == "5"):
   os.system("cd Devil&&bash install.sh")
 ###############################
-if(str(shah) == "4"):
+if(str(shah) == "6"):
   os.system("cd Dragon&&python Dragon.py")
   
   
