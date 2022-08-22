@@ -24,4 +24,4 @@ if(str(shah) == "1"):
   os.system("cd Dragon1&&bash install.sh")
 #
 if(str(shah) == "2"):
-  os.system("cd Dragon2&&bash install.sh
+  os.system("cd Dragon2&&bash install.sh") 
