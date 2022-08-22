@@ -10,8 +10,8 @@ import sys
 ###########
 print("\n"*10)
 soheil = """
-\033[41m[1]\33[1;0m  \033[32m Banner Computer1\033[41m
-\033[41m[2]\33[1;0m  \033[32m Banner Computer2
+\033[41m[1]\33[1;0m  \033[32m Banner Dragon1\033[41m
+\033[41m[2]\33[1;0m  \033[32m Banner Dragon2
 """
 for i in soheil:
 	sleep(0.05)
@@ -21,8 +21,8 @@ print()
 shah = int(input(Fore.CYAN+"     \033[41m[?]\33[1;0m"+"\33[1; \033[31mSelect\033[32m◈─━─━─━─━\033[34m❯❯❯  \033[93m"+Fore.RED+""))
 #
 if(str(shah) == "1"):
-  os.system("cd Computer1&&bash install.sh")
+  os.system("cd Dragon1&&bash install.sh")
 #
 if(str(shah) == "2"):
-  os.system("cd Computer2&&bash install.sh
+  os.system("cd Dragon2&&bash install.sh
 Footer
