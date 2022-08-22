@@ -35,7 +35,7 @@ if(str(shah) == "2"):
   os.system("cd skeleton&&bash install.sh")
 ###############################
 if(str(shah) == "3"):
-  os.system("cd &&bash install.sh")
+  os.system("cd Computer&&python Select.py")
 ###############################
 if(str(shah) == "4"):
   os.system("cd parrot&&bash install.sh")
