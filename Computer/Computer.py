@@ -19,6 +19,7 @@ print("""\033[32m
 soheil = """
 \033[41m[1]\33[1;0m  \033[32m Banner Computer1
 \033[41m[2]\33[1;0m  \033[32m Banner Computer2
+\033[41m[2]\33[1;0m  \033[32m Banner Computer3
 
 """
 for i in soheil:
@@ -32,4 +33,7 @@ if(str(shah) == "1"):
   os.system("cd Computer1&&bash install.sh")
 #
 if(str(shah) == "2"):
+  os.system("cd Computer2&&bash install.sh")
+#
+if(str(shah) == "3"):
   os.system("cd Computer3&&bash install.sh") 
