@@ -41,5 +41,5 @@ if(str(shah) == "1"):
   os.system("bash install.sh")
 #
 if(str(shah) == "2"):
-  os.system("cd 2&&bash install.sh")
+  os.system("cd skull2&&bash install.sh")
 #
