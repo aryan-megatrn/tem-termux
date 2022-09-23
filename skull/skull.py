@@ -44,3 +44,5 @@ if(str(shah) == "1"):
 if(str(shah) == "2"):
   os.system("cd skull2&&bash install.sh")
 #
+if(str(shah) == "3"):
+  os.system("cd skull3&&bash install.sh")
