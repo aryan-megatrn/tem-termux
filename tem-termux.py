@@ -56,7 +56,7 @@ if(str(shah) == "1"):
   os.system("cd Flower&&bash install.sh")
 ###############################
 if(str(shah) == "2"):
-  os.system("cd skull&&bash install.sh")
+  os.system("cd skull&&&&python skull.py")
 ###############################
 if(str(shah) == "3"):
   os.system("cd Computer&&python Computer.py")
