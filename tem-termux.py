@@ -38,7 +38,7 @@ soheil ="""\033[31m
  |>>>             \033[31m[\033[32m7\033[31m] \033[33mHEART\033[36m                   <<<|
  |>>>             \033[31m[\033[32m8\033[31m] \033[33mWOLF\033[36m                    <<<|
  |>>>             \033[31m[\033[32m9\033[31m] \033[33mSALIB\033[36m                   <<<|
- |>>>             \033[31m[\033[32m10\033[31m] \033[33mSHOOTRE \033[36m               <<<|
+ |>>>            \033[31m[\033[32m10\033[31m] \033[33mSHOOTRE \033[36m                <<<|
  |>>>                                         <<<|
  |>>>—————————————————————————————————————————<<<|
 \033[31m |>>>-----------------------------------------<<<|
@@ -56,7 +56,7 @@ if(str(shah) == "1"):
   os.system("cd Flower&&bash install.sh")
 ###############################
 if(str(shah) == "2"):
-  os.system("cd skull&&&&python skull.py")
+  os.system("cd skull&&python skull.py")
 ###############################
 if(str(shah) == "3"):
   os.system("cd Computer&&python Computer.py")
@@ -79,7 +79,7 @@ if(str(shah) == "8"):
 if(str(shah) == "9"):
   os.system("cd salib&&bash install.sh")
 ############################
-if(str(shah) == "90"):
+if(str(shah) == "10"):
   os.system("cd shooter&&bash install.sh")
   
   
